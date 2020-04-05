@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String s = editText3.getText().toString();
                 String s1 = editText2.getText().toString();
-                String s2 = editText3.getText().toString();
+                String s2 = editText1.getText().toString();
                 cnt.setFirstName(s);
                 cnt.setLastName(s1);
                 cnt.setAddress(s2);
