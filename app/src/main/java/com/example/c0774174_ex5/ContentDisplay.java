@@ -16,11 +16,11 @@ public class ContentDisplay implements Parcelable {
     };
 
 
-    private String firstName;
-    private String lastName;
-    private String address;
+    private static String firstName;
+    private static String lastName;
+    private static String address;
 
-    public String getFirstName() {
+    public static String getFirstName() {
         return firstName;
     }
 
@@ -28,7 +28,7 @@ public class ContentDisplay implements Parcelable {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
+    public static String getLastName() {
         return lastName;
     }
 
@@ -36,7 +36,7 @@ public class ContentDisplay implements Parcelable {
         this.lastName = lastName;
     }
 
-    public String getAddress() {
+    public static String getAddress() {
         return address;
     }
 

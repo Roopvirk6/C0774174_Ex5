@@ -25,5 +25,14 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
 
+        String fname = ContentDisplay.getFirstName();
+        String lname = ContentDisplay.getLastName();
+        String address = ContentDisplay.getAddress();
+
+       d1.setText("Your First Name: "+fname);
+       d2.setText("Your Last Name: "+lname);
+       d3.setText("Your Address: "+address);
+
+
     }
 }
