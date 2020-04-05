@@ -53,7 +53,7 @@ public class ContentDisplay implements Parcelable {
     }
 
 
-
+    public ContentDisplay(){}
     // Parcelling part
     public ContentDisplay(Parcel in){
         this.firstName = in.readString();
@@ -76,9 +76,9 @@ public class ContentDisplay implements Parcelable {
     @Override
     public String toString() {
         return "Content{" +
-                "id='" + firstName + '\'' +
-                ", name='" + lastName + '\'' +
-                ", grade='" + address + '\'' +
+                "First Name='" + firstName + '\'' +
+                ",Last Name='" + lastName + '\'' +
+                ", Address ='" + address + '\'' +
                 '}';
     }
 }
